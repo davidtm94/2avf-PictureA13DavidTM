@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PictureA13DavidTM</string>
+
+    <string name="hello_world">HolaMundo!</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="strLanzarCamara">Lanzar Camara</string>
+</resources>
