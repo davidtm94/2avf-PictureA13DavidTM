@@ -67,7 +67,6 @@ public class PictureA13DavidTM extends Activity {
             }
             // Continue only if the File was successfully created
             if (photoFile != null) {
-                takePictureIntent.putExtra("foto",MediaStore.ACTION_IMAGE_CAPTURE);
                 takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT,
                         Uri.fromFile(photoFile)); //Garda a foto no arquivo
                 startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE); //Lanza o intent
